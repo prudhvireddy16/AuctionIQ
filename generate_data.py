@@ -21,4 +21,4 @@ df.loc[df['Make'] == 'Ferrari', 'Sold_Price'] += 100000 # Brand premium
 
 # Save it
 df.to_csv('auction_data.csv', index=False)
-print("✅ Created auction_data.csv successfully!")
+print(" Created auction_data.csv successfully!")
