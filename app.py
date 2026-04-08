@@ -8,7 +8,7 @@ model_columns = joblib.load('model_columns.pkl')
 
 # 2. UI Setup
 st.set_page_config(page_title="AuctionIQ Price Predictor", layout="wide")
-st.title("🚗 AuctionIQ: Predictive Price Engine")
+st.title(" AuctionIQ: Predictive Price Engine")
 st.write("Enter vehicle details below to estimate the final **Hammer Price**.")
 
 # 3. User Input Layout
