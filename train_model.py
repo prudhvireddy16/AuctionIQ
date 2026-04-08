@@ -22,4 +22,4 @@ model.fit(X_train, y_train)
 joblib.dump(model, 'auction_model.pkl')
 joblib.dump(X.columns, 'model_columns.pkl')
 
-print("🧠 AI Model Trained and Saved as 'auction_model.pkl'!")
+print(" AI Model Trained and Saved as 'auction_model.pkl'!")
